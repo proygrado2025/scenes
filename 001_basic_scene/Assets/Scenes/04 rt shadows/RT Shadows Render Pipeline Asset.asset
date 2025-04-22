@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd10247c5d87b345bee0b2162cf5398, type: 3}
+  m_Name: RT Shadows Render Pipeline Asset
+  m_EditorClassIdentifier: 
+  debugFloat: 1
+  debugFloat2: {x: 0, y: 0}
+  debugFloat3: {x: 0, y: -1, z: 0}
+  RTShader: {fileID: 4807578003741378534, guid: 1729bd576c93dc047ad9f6a42938da7a,
+    type: 3}
+  CubeMapTexture: {fileID: 8900000, guid: 4ba50293bee97a041a1027888b3e6e95, type: 3}

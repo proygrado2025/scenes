@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ca9bda4523a8a4796377dd872c2b88, type: 3}
+  m_Name: Monte Carlo Render Pipeline Asset
+  m_EditorClassIdentifier: 
+  maxRecursionDepth: 5
+  spp: 1
+  debugInt: 0
+  debugFloat: 0
+  debugFloat2: {x: 0, y: 0}
+  debugFloat3: {x: 0, y: 0, z: 0}
+  RTShader: {fileID: 4807578003741378534, guid: 3b65420892cd8bc42ba6b0628467f301,
+    type: 3}
+  preprocessCS: {fileID: 7200000, guid: 0074208cc75b6e14d960d2ceb2667e2a, type: 3}
+  regressionCS: {fileID: 7200000, guid: c3bc9aa20c56e5f438d8d0d949851640, type: 3}
+  postprocessCS: {fileID: 7200000, guid: c6c791e22f3d91947b39577add6c299c, type: 3}
+  UseDenoiserPreprocess: 1
+  UseDenoiserRegression: 1
+  UseDenoiserPostprocess: 1
+  CubeMapTexture: {fileID: 8900000, guid: 4ba50293bee97a041a1027888b3e6e95, type: 3}
